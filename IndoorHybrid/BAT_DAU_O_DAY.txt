@@ -1,0 +1,15 @@
+INDOOR SYSTEM HYBRID + IMU — PHIÊN BẢN THỬ NGHIỆM
+
+MỞ ĐẦU: đọc IMU_5_BUOC.txt.
+CÀI: cd ~/Downloads/IndoorSystem_Hybrid_IMU_LIVE
+       chmod +x *.sh
+       ./setup_ubuntu.sh  (chạy lần đầu)
+       ./run_master.sh
+
+1) Master L1 + 3 Anchor Clients cũ: Wi-Fi TCP :8765
+2) iPhone cài Sensor Logger; phát HTTP Push tới IP Master :8767/imu
+3) CĂN HƯỚNG, bật IMU, thử 3–4 mét và ghi sai số
+4) Nếu IMU không có dữ liệu: HYBRID VẪN CHẠY BẰNG RSSI.
+
+Chưa kiểm chứng trên iPhone và 4 laptop thật. Không tuyên bố <1 m.
+Giữ bản cũ làm dự phòng; đóng Master cũ trước khi mở bản mới.

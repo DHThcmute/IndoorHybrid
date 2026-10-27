@@ -1,0 +1,12 @@
+HYBRID + IMU -- BỔ SUNG TAB PLOT 4 ANCHOR (23/10/2026)
+
+- Thêm tab PLOT KHOẢNG CÁCH L1–L4 trong cửa sổ GUI gốc.
+- 4 biểu đồ theo thời gian: khoảng cách thực (đỏ), khoảng cách ước lượng từ RSSI (xanh).
+- Nhập 4 khoảng cách thực; chọn đo 3D hoặc 2D.
+- Tính MAE/Bias từng máy và xuất CSV đầy đủ.
+- Không cần START LIVE: chỉ cần các anchor gửi RSSI mới và có CALIB khoảng cách.
+- Dữ liệu cũ, BSSID khác hoặc CALIB thay đổi không được trộn.
+- Thuật toán Hybrid, IMU và Kalman không thay đổi.
+- Không bổ sung thư viện bên ngoài cho chức năng plot (Tkinter sẵn có).
+- 56/56 kiểm thử tự động đạt; kiểm tra GUI + xuất CSV qua màn hình ảo thành công.
+- Chưa kiểm chứng độ chính xác với bốn laptop thực tế.

@@ -1,0 +1,11 @@
+INDOORSYSTEM HYBRID LIVE — GUI RIÊNG (KHÔNG GHI ĐÈ RANGELIVE V2)
+
+1) STOP MASTER cũ. Ubuntu Master: cd vào thư mục này; chạy ./setup_ubuntu.sh (lần đầu), rồi ./run_master.sh
+2) Bấm CHẠY MASTER + L1. L2–L4 dùng Anchor Client cũ, cùng Session và cùng hotspot iPhone.
+3) Nhập bản đồ/tọa độ L1–L4. Đặt iPhone tại >=8 tọa độ thật khác nhau, mỗi mốc nhấn CALIB CẢ 4 ANCHOR.
+4) Nhấn XÂY MÔ HÌNH HYBRID. Chọn hybrid. Nhấn START LIVE để xem chấm đen di chuyển.
+5) Đo lỗi bằng GHI / TÍNH SAI SỐ tại các vị trí CHƯA DÙNG CALIB.
+
+BSSID KHÔNG được thay đổi sau khi CALIB. GUI cảnh báo khi model thiếu hoặc BSSID khác.
+Nếu muốn loại máy L3: STOP LIVE > Loại khỏi phép tính: L3 > ÁP DỤNG > START LIVE.
+Phần mềm này mới qua kiểm thử phần mềm; chưa xác nhận độ chính xác hay độ trễ thực tế trên bộ máy của bạn.

@@ -1,0 +1,12 @@
+IMU IPHONE + HYBRID - QUY TRÌNH NHANH
+
+1) Dừng Master cũ, mở Hybrid Master; cùng hotspot iPhone; chưa cần bật IMU.
+2) iPhone cài Sensor Logger, bật Accelerometer + Orientation, HTTP Push tới
+   http://IP_MASTER:8767/imu (xem IP thực trong GUI). Bắt đầu Recording.
+3) GUI thấy "gói IMU" tăng, trạng thái dữ liệu mới. Nếu không, chưa có kết nối.
+4) STOP LIVE, giữ điện thoại màn hình hướng lên, đầu máy chỉ theo +X (0 độ),
+   nhấn CĂN HƯỚNG; bật "Dùng IMU làm prior mềm", đặt bước 0.62 m, ÁP DỤNG.
+5) START LIVE, so sánh đường đi và sai số với IMU TẮT rồi IMU BẬT.
+
+LƯU Ý: Không xoay điện thoại trong tay khi đi; iPhone đổi phiên Recording
+thì phải căn hướng lại. Không chứng minh sai số thấp hơn cho tới khi đo ngoài đời.
